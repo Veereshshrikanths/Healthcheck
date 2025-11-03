@@ -1,5 +1,6 @@
 #!/bin/bash
 # healthcheck.sh - System Health Check Script
+
 LOGFILE="healthlog.txt"
 TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
 
@@ -42,4 +43,4 @@ echo "" >> "$LOGFILE"
 echo "===========================================================================" >> "$LOGFILE"
 echo "" >> "$LOGFILE"
 
-echo "✅ Health check complete! Results logged to $LOGFILE"
+echo "Health check complete! Results logged to $LOGFILE"
